@@ -1,0 +1,82 @@
+{
+  "definitions": {
+    "Regenerative Organic Alliance (ROA)": "A nonprofit organization which promotes farming practices that benefit soil and animal health and improve working conditions.",
+    "Carbon sequestration": "Capturing and storing CO2 from the atmosphere to mitigate climate change.",
+    "Emissions standards": {
+      "Scope 1": "Emissions from sources the company directly owns or controls (industrial activity, company vehicles, on-site combustion, etc.).",
+      "Scope 2": "Emissions from resources a company uses such as electricity, steam, heat, or cooling.",
+      "Scope 3": "All other indirect emissions not included in Scope 2, such as purchased goods/services, business travel, and waste disposal."
+    },
+    "End-of-life": "When a product has reached the end of its useful life and must be disposed of or recycled.",
+    "Fair Trade Certification": "Indicates that a company or product has met rigorous social, economic, and environmental standards ensuring ethical treatment and adequate pay for workers.",
+    "Synthetic": "Materials usually made from petroleum, coal, or natural gas.",
+    "Greenwashing": "Deceptive or misleading marketing tactics that present a more environmentally friendly image than reality.",
+    "Carbon Disclosure Project": "A global nonprofit running a disclosure system for organizations and companies to share their environmental impact."
+  },
+
+  "brands": [
+    {
+      "name": "Patagonia",
+      "slug": "patagonia",
+      "ratings": {
+        "Child Labor": 5,
+        "Forced Labor": 5,
+        "Working Conditions": 5,
+        "Fair Wages": 4,
+        "Other Labor": 5,
+        "Waste Management": 5,
+        "Carbon Emissions": 4,
+        "Material Composition": 5,
+        "Other Environmental": 5,
+        "Overall Score": 4.8
+      },
+      "details": {
+        "Labor": {
+          "Child Labor": "Patagonia enforces a strict zero-tolerance policy for child labor and audits all suppliers to verify compliance. It bans sourcing or manufacturing in regions with high child labor risk, such as Xinjiang and Uzbekistan. These measures are upheld through Fair Labor Association and Fair Trade certification oversight.",
+          "Forced Labor": "Patagonia prohibits forced and bonded labor and applies extra protections for migrant workers. Its suppliers must follow strict employment standards with regular audits and grievance systems. The Fair Labor Association independently verifies strong compliance.",
+          "Working Conditions": "Over 90% of Patagonia’s products come from Fair Trade Certified factories, supporting over 85,000 workers. Patagonia funds worker hotlines and requires grievance systems for all suppliers. FLA assessments rate the company above 95% across labor and safety principles.",
+          "Fair Wages": "Patagonia provides Fair Trade premiums and strong employee benefits but has not achieved full living wages across all operations. The company commits to improving wage equity and transparency but is not fully verified globally.",
+          "Other": "Patagonia discloses extensive supply chain details and holds third-party certifications including FLA, Fair Trade, and Better Work. It consistently performs at the highest levels for accountability and labor governance."
+        },
+        "Environment": {
+          "Waste Management": "Patagonia’s Worn Wear program repairs and resells used gear, significantly reducing landfill waste. The company explores recycling solutions and openly addresses microplastic challenges. Its circular model sets an industry benchmark.",
+          "Carbon Emissions": "Patagonia targets a 90% emissions reduction by 2040 and 100% renewable energy by 2025. It transparently reports nearly all emissions but has not reached full carbon neutrality.",
+          "Materials": "Over 90% of Patagonia’s materials are recycled or sustainably sourced. As a founder of the Regenerative Organic Alliance, it influences global standards for soil and carbon practices. Patagonia discloses material composition for all products.",
+          "Other": "Patagonia donates 1% of annual sales to environmental causes and funds grassroots conservation efforts. It received the UN’s “Champion of the Earth” award for sustainability leadership."
+        }
+      }
+    },
+
+    {
+      "name": "H&M Group",
+      "slug": "hm-group",
+      "ratings": {
+        "Child Labor": 3,
+        "Forced Labor": 2,
+        "Working Conditions": 2,
+        "Fair Wages": 2,
+        "Other Labor": 2,
+        "Waste Management": 3,
+        "Carbon Emissions": 3,
+        "Material Composition": 3,
+        "Other Environmental": 2,
+        "Overall Score": 2.4
+      },
+      "details": {
+        "Labor": {
+          "Child Labor": "H&M prohibits child labor and participates in improvement programs, but provides limited independent verification. Risks remain within high-exposure sourcing regions.",
+          "Forced Labor": "H&M has public policies against forced labor but continues sourcing from countries with documented risks. Reports show excessive working hours and potential coercive conditions. Auditing and enforcement are weak.",
+          "Working Conditions": "Suppliers largely self-report under H&M’s SIP program with minimal auditing. Grievance systems are optional, and violations are often addressed only if severe. Evidence shows persistent poor conditions.",
+          "Fair Wages": "Workers in several supplier countries report earning below living wages and working unpaid overtime. H&M’s stance that 'there is no universal living wage' shows limited commitment to real improvement.",
+          "Other": "H&M publishes some supplier transparency but lacks independent verification and provides minimal data on worker representation or diversity."
+        },
+        "Environment": {
+          "Waste Management": "H&M runs a garment collection program and reports packaging reductions. Critics question how much material is actually recycled. Improvements exist but lag behind the waste generated by fast fashion.",
+          "Carbon Emissions": "H&M tracks emissions and received a high Carbon Disclosure Project rating but provides limited evidence of verified reductions, particularly in Scope 3. High production volume contradicts sustainability goals.",
+          "Materials": "Only 10–12% of materials are organic or recycled. Synthetic fabrics dominate. Although involved in cotton improvement initiatives, sustainability performance remains moderate.",
+          "Other": "H&M faces multiple greenwashing accusations and limited verification of environmental claims. Sustainability scores remain below industry averages."
+        }
+      }
+    }
+  ]
+}
