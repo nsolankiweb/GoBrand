@@ -11,7 +11,74 @@
     "Fair Trade Certification": "Indicates that a company or product has met rigorous social, economic, and environmental standards ensuring ethical treatment and adequate pay for workers.",
     "Synthetic": "Materials usually made from petroleum, coal, or natural gas.",
     "Greenwashing": "Deceptive or misleading marketing tactics that present a more environmentally friendly image than reality.",
-    "Carbon Disclosure Project": "A global nonprofit running a disclosure system for organizations and companies to share their environmental impact."
+    "Carbon Disclosure Project": "A global nonprofit running a disclosure system for organizations and companies to share their environmental impact.",
+    "GOTS (Global Organic Textile Standard)": "Certification for organic fibers covering the entire supply chain from harvesting through responsible manufacturing and labeling.",
+    "GRS (Global Recycled Standard)": "Certification verifying recycled content in products and ensuring responsible social and environmental practices.",
+    "RWS (Responsible Wool Standard)": "Standard promoting animal welfare and sustainable land management for sheep farms.",
+    "FSC (Forest Stewardship Council)": "Certification system for responsible forest management and sustainable wood sourcing.",
+    "Land to Market": "A verification program certifying regenerative agriculture practices focused on improving soil health.",
+    "ROC (Regenerative Organic Certified)": "Highest standard for organic agriculture, covering soil health, animal welfare, and worker fairness.",
+    "ZDHC (Zero Discharge of Hazardous Chemicals)": "Initiative to eliminate hazardous chemicals across textile and footwear supply chains.",
+    "Bluesign System": "Certification eliminating harmful chemicals and ensuring sustainable textile production.",
+    "SA8000": "International certification encouraging socially acceptable workplace practices.",
+    "Asia Floor Wage Alliance": "Alliance working to establish a living wage for garment workers across Asia.",
+    "ILO Four Fundamentals": "Fundamental principles covering freedom of association, elimination of forced labor, abolition of child labor, and elimination of discrimination.",
+    "Fashion Transparency Index": "Annual ranking evaluating brand transparency in supply chains.",
+    "Ultra-fast fashion": "Business model producing extremely high volumes of clothing at rapid speed, often daily."
+  },
+
+  "scoring_rubric": {
+    "Child Labor": [
+      "1: Evidence of child labor in supply chain",
+      "2: Weak policies or unclear monitoring",
+      "3: Basic policy with limited enforcement",
+      "4: Strong policy with regular audits",
+      "5: Zero tolerance with full transparency and verification"
+    ],
+    "Forced Labor": [
+      "1: Documented forced labor or trafficking",
+      "2: Weak screening and policies",
+      "3: Written policy with some audits",
+      "4: Strong prevention measures and worker protections",
+      "5: Industry-leading practices with third-party verification"
+    ],
+    "Working Conditions": [
+      "1: Serious violations with no corrective action",
+      "2: Minimal standards, frequent violations",
+      "3: Meets basic legal requirements",
+      "4: Comprehensive safety programs and training",
+      "5: Exemplary record with worker committees and proactive measures"
+    ],
+    "Fair Wages": [
+      "1: Below minimum wage or poverty wages",
+      "2: Legal minimum but below living wage",
+      "3: Approaching living wage in some areas",
+      "4: Committed to living wages with clear timeline",
+      "5: Pays living wages throughout supply chain"
+    ],
+    "Waste Management": [
+      "1: No strategy; pollution or illegal dumping",
+      "2: Minimal efforts; most waste to landfill",
+      "3: Basic recycling program",
+      "4: Strong reduction strategy with measurable targets",
+      "5: Near-zero waste with circular systems"
+    ],
+    "Carbon Emissions": [
+      "1: No tracking or reduction efforts",
+      "2: Limited data, no targets",
+      "3: Emissions measured with modest goals",
+      "4: Science-based targets with clear pathway",
+      "5: Net-zero or carbon negative"
+    ],
+    "Material Composition": [
+      "1: Virgin/toxic materials only",
+      "2: Mostly conventional (0–20% sustainable)",
+      "3: Mixed (20–50% sustainable)",
+      "4: Majority sustainable (50–80%)",
+      "5: Predominantly sustainable (80–100%+)"
+    ],
+    "Other Labor": "Transparency, certifications, governance quality, long-term consistency.",
+    "Other Environmental": "Transparency, activism, verified impact, community engagement, credibility."
   },
 
   "brands": [
@@ -28,21 +95,23 @@
         "Carbon Emissions": 4,
         "Material Composition": 5,
         "Other Environmental": 5,
-        "Overall Score": 4.8
+        "Overall Score": 4.8,
+        "Labor Score": 4.8,
+        "Environmental Score": 4.75
       },
       "details": {
         "Labor": {
-          "Child Labor": "Patagonia enforces a strict zero-tolerance policy for child labor and audits all suppliers to verify compliance. It bans sourcing or manufacturing in regions with high child labor risk, such as Xinjiang and Uzbekistan. These measures are upheld through Fair Labor Association and Fair Trade certification oversight.",
-          "Forced Labor": "Patagonia prohibits forced and bonded labor and applies extra protections for migrant workers. Its suppliers must follow strict employment standards with regular audits and grievance systems. The Fair Labor Association independently verifies strong compliance.",
-          "Working Conditions": "Over 90% of Patagonia’s products come from Fair Trade Certified factories, supporting over 85,000 workers. Patagonia funds worker hotlines and requires grievance systems for all suppliers. FLA assessments rate the company above 95% across labor and safety principles.",
-          "Fair Wages": "Patagonia provides Fair Trade premiums and strong employee benefits but has not achieved full living wages across all operations. The company commits to improving wage equity and transparency but is not fully verified globally.",
-          "Other": "Patagonia discloses extensive supply chain details and holds third-party certifications including FLA, Fair Trade, and Better Work. It consistently performs at the highest levels for accountability and labor governance."
+          "Child Labor": "Patagonia enforces a strict zero-tolerance policy…",
+          "Forced Labor": "Patagonia prohibits forced and bonded labor…",
+          "Working Conditions": "Over 90% of products from Fair Trade factories…",
+          "Fair Wages": "Provides Fair Trade premiums but not full global living wages…",
+          "Other": "Extensive supply chain transparency and top-tier certifications."
         },
         "Environment": {
-          "Waste Management": "Patagonia’s Worn Wear program repairs and resells used gear, significantly reducing landfill waste. The company explores recycling solutions and openly addresses microplastic challenges. Its circular model sets an industry benchmark.",
-          "Carbon Emissions": "Patagonia targets a 90% emissions reduction by 2040 and 100% renewable energy by 2025. It transparently reports nearly all emissions but has not reached full carbon neutrality.",
-          "Materials": "Over 90% of Patagonia’s materials are recycled or sustainably sourced. As a founder of the Regenerative Organic Alliance, it influences global standards for soil and carbon practices. Patagonia discloses material composition for all products.",
-          "Other": "Patagonia donates 1% of annual sales to environmental causes and funds grassroots conservation efforts. It received the UN’s “Champion of the Earth” award for sustainability leadership."
+          "Waste Management": "Worn Wear circular model, repairs, resale, recycling…",
+          "Carbon Emissions": "Targets 90% reduction by 2040; transparent classification…",
+          "Materials": "Over 90% recycled or sustainably sourced…",
+          "Other": "Donates 1% of sales; UN Champion of the Earth recipient."
         }
       }
     },
@@ -60,21 +129,91 @@
         "Carbon Emissions": 3,
         "Material Composition": 3,
         "Other Environmental": 2,
-        "Overall Score": 2.4
+        "Overall Score": 2.4,
+        "Labor Score": 2.2,
+        "Environmental Score": 2.75
       },
       "details": {
         "Labor": {
-          "Child Labor": "H&M prohibits child labor and participates in improvement programs, but provides limited independent verification. Risks remain within high-exposure sourcing regions.",
-          "Forced Labor": "H&M has public policies against forced labor but continues sourcing from countries with documented risks. Reports show excessive working hours and potential coercive conditions. Auditing and enforcement are weak.",
-          "Working Conditions": "Suppliers largely self-report under H&M’s SIP program with minimal auditing. Grievance systems are optional, and violations are often addressed only if severe. Evidence shows persistent poor conditions.",
-          "Fair Wages": "Workers in several supplier countries report earning below living wages and working unpaid overtime. H&M’s stance that 'there is no universal living wage' shows limited commitment to real improvement.",
-          "Other": "H&M publishes some supplier transparency but lacks independent verification and provides minimal data on worker representation or diversity."
+          "Child Labor": "H&M prohibits child labor but limited independent verification…",
+          "Forced Labor": "Continues sourcing in high-risk regions with weak enforcement…",
+          "Working Conditions": "Supplier self-reporting; minimal audits…",
+          "Fair Wages": "Workers report below living wages and unpaid overtime…",
+          "Other": "Transparency exists but lacks third-party verification."
         },
         "Environment": {
-          "Waste Management": "H&M runs a garment collection program and reports packaging reductions. Critics question how much material is actually recycled. Improvements exist but lag behind the waste generated by fast fashion.",
-          "Carbon Emissions": "H&M tracks emissions and received a high Carbon Disclosure Project rating but provides limited evidence of verified reductions, particularly in Scope 3. High production volume contradicts sustainability goals.",
-          "Materials": "Only 10–12% of materials are organic or recycled. Synthetic fabrics dominate. Although involved in cotton improvement initiatives, sustainability performance remains moderate.",
-          "Other": "H&M faces multiple greenwashing accusations and limited verification of environmental claims. Sustainability scores remain below industry averages."
+          "Waste Management": "Garment collection program but uncertain recycling impact…",
+          "Carbon Emissions": "High CDP rating but unclear verified reductions…",
+          "Materials": "Only 10–12% organic/recycled fibers…",
+          "Other": "Multiple greenwashing accusations and weak verification."
+        }
+      }
+    },
+
+    {
+      "name": "Eileen Fisher",
+      "slug": "eileen-fisher",
+      "ratings": {
+        "Child Labor": 4,
+        "Forced Labor": 4,
+        "Working Conditions": 4,
+        "Fair Wages": 3,
+        "Other Labor": 4,
+        "Waste Management": 4,
+        "Carbon Emissions": 3,
+        "Material Composition": 5,
+        "Other Environmental": 4,
+        "Overall Score": 3.9,
+        "Labor Score": 3.8,
+        "Environmental Score": 4.0
+      },
+      "details": {
+        "Labor": {
+          "Child Labor": "Strong enforcement and transparency but lacks Patagonia-level verification…",
+          "Forced Labor": "Strict code of conduct; audits via FLA and SAI…",
+          "Working Conditions": "70% Fair Trade Certified volume; SA8000 certifications…",
+          "Fair Wages": "Commitment to living wages but not fully implemented…",
+          "Other": "100% Tier 1 & 2 traced; high B Corp score (109.4)."
+        },
+        "Environment": {
+          "Waste Management": "Renew, Waste No More, and long-running takeback programs…",
+          "Carbon Emissions": "SBTi targets but not fully on track…",
+          "Materials": "75% preferred materials; extensive certifications (GOTS, GRS, RWS…)",
+          "Other": "Strong sustainability leadership; Bluesign partner; ZDHC signatory."
+        }
+      }
+    },
+
+    {
+      "name": "Shein",
+      "slug": "shein",
+      "ratings": {
+        "Child Labor": 2,
+        "Forced Labor": 2,
+        "Working Conditions": 2,
+        "Fair Wages": 1,
+        "Other Labor": 1,
+        "Waste Management": 2,
+        "Carbon Emissions": 1,
+        "Material Composition": 2,
+        "Other Environmental": 1,
+        "Overall Score": 1.6,
+        "Labor Score": 1.6,
+        "Environmental Score": 1.5
+      },
+      "details": {
+        "Labor": {
+          "Child Labor": "Documented cases in 2023; limited enforcement…",
+          "Forced Labor": "Widespread 75-hour weeks; unregulated subcontracting…",
+          "Working Conditions": "Workers paid pennies per item; severe violations…",
+          "Fair Wages": "Below living wage; delayed payments; extremely low compensation…",
+          "Other": "Scores 0–10% transparency; extremely low accountability ratings."
+        },
+        "Environment": {
+          "Waste Management": "6,000 styles daily; poor quality leads to massive waste…",
+          "Carbon Emissions": "16.7 million mtCO2e; highest emissions in the fashion industry…",
+          "Materials": "76% polyester; only 6% recycled polyester…",
+          "Other": "F grades across indexes; multiple greenwashing accusations."
         }
       }
     }
