@@ -83,6 +83,7 @@
 
   "brands": [
     {
+      "id" : 1,
       "name": "Patagonia",
       "slug": "patagonia",
       "ratings": {
@@ -101,22 +102,23 @@
       },
       "details": {
         "Labor": {
-          "Child Labor": "Patagonia enforces a strict zero-tolerance policy…",
-          "Forced Labor": "Patagonia prohibits forced and bonded labor…",
-          "Working Conditions": "Over 90% of products from Fair Trade factories…",
-          "Fair Wages": "Provides Fair Trade premiums but not full global living wages…",
-          "Other": "Extensive supply chain transparency and top-tier certifications."
+          "Child Labor": "Patagonia enforces a strict zero-tolerance policy for child labor and audits all suppliers to verify compliance. It bans sourcing or manufacturing in regions with high child labor risk, such as Xinjiang and Uzbekistan. These measures are upheld through Fair Labor Association and Fair Trade certification oversight.",
+          "Forced Labor": "Patagonia prohibits forced and bonded labor and applies extra protections for migrant workers. Its suppliers must follow strict employment standards, with regular audits and grievance systems. Independent verification by the Fair Labor Association confirms strong compliance and transparency.",
+          "Working Conditions": "Over 90% of Patagonia’s products come from Fair Trade Certified factories, benefiting more than 85,000 workers. The company funds worker hotlines and requires internal grievance systems for all suppliers. FLA assessments rate Patagonia above 95% across key labor and safety principles.",
+          "Fair Wages": "Patagonia provides Fair Trade premiums and robust employee benefits but has not achieved living wages across its entire supply chain. The company publicly commits to improving wage equity and transparency. It performs well but stops short of full global living wage verification.",
+          "Other Labor": "Patagonia discloses extensive supply chain details and holds multiple third-party certifications, including FLA, Fair Trade, and Better Work. It consistently performs at the highest levels for accountability and labor governance."
         },
         "Environment": {
-          "Waste Management": "Worn Wear circular model, repairs, resale, recycling…",
-          "Carbon Emissions": "Targets 90% reduction by 2040; transparent classification…",
-          "Materials": "Over 90% recycled or sustainably sourced…",
-          "Other": "Donates 1% of sales; UN Champion of the Earth recipient."
+          "Waste Management": "Patagonia’s Worn Wear program repairs and resells used gear, minimizing landfill waste. The company also explores end-of-life recycling solutions and openly addresses microplastic challenges. Its circular model sets an industry benchmark for waste reduction.",
+          "Carbon Emissions": "Patagonia targets a 90% emissions reduction by 2040 and 100% renewable energy by 2025. Although baseline data is incomplete, nearly all emissions are transparently classified and tracked. It demonstrates science-based progress, but not yet full carbon neutrality.",
+          "Material Composition": "Over 90% of Patagonia’s materials are recycled or sustainably sourced, including organic cotton and recycled polyester. As a Regenerative Organic Alliance founder, it helps set global soil and carbon standards. The company discloses every product’s material composition online.",
+          "Other Environmental": "Patagonia donates 1% of annual sales to environmental causes and funds grassroots conservation efforts. It earned the UN’s “Champion of the Earth” award for sustainability leadership."
         }
       }
     },
 
     {
+      "id" : 2,
       "name": "H&M Group",
       "slug": "hm-group",
       "ratings": {
@@ -135,22 +137,23 @@
       },
       "details": {
         "Labor": {
-          "Child Labor": "H&M prohibits child labor but limited independent verification…",
-          "Forced Labor": "Continues sourcing in high-risk regions with weak enforcement…",
-          "Working Conditions": "Supplier self-reporting; minimal audits…",
-          "Fair Wages": "Workers report below living wages and unpaid overtime…",
-          "Other": "Transparency exists but lacks third-party verification."
+          "Child Labor": "H&M states it prohibits child labor and participates in the Social & Labor Convergence Program to improve global standards. However, the company provides limited independent verification that these protections are consistently enforced across its vast supplier network. Evidence of risk remains in high-exposure sourcing regions.",
+          "Forced Labor": "H&M has policies against forced labor but continues sourcing from countries with documented risks of coercive conditions. Reports show suppliers where employees work excessive hours to meet quotas—conditions the UN defines as potential forced labor. Auditing and enforcement appear weak, with little external verification.",
+          "Working Conditions": "Suppliers self-report their social standards under H&M’s Sustainable Impact Partnership Program, with minimal auditing. Worker grievance systems are optional, and violations are often only addressed if deemed “severe.” Despite membership in improvement initiatives, factory-level evidence points to persistent poor conditions.",
+          "Fair Wages": "Factory workers in several supplier countries report earning below living wages and working unpaid overtime. H&M’s defense—that there is “no universal living wage”—illustrates limited accountability. While it claims to be progressing toward fair pay, there is no proof of measurable improvement.",
+          "Other Labor": "H&M publishes supplier lists and reports some transparency but provides no clear data on diversity, inclusion, or worker representation. Much of its progress reporting is self-assessed, lacking third-party verification."
         },
         "Environment": {
-          "Waste Management": "Garment collection program but uncertain recycling impact…",
-          "Carbon Emissions": "High CDP rating but unclear verified reductions…",
-          "Materials": "Only 10–12% organic/recycled fibers…",
-          "Other": "Multiple greenwashing accusations and weak verification."
+          "Waste Management": "H&M’s garment collection program allows customers to return clothing for resale or recycling, and it reports some packaging reductions. However, critics question how much collected material is truly recycled. Efforts are positive but limited compared to the scale of waste produced by its fast-fashion model.",
+          "Carbon Emissions": "H&M has set reduction targets and received an “A” rating from the Carbon Disclosure Project but provides limited evidence of progress. While it tracks emissions, there’s little clarity on verified outcomes or Scope 3 reductions. Its model still encourages high production volumes and frequent turnover, countering climate goals.",
+          "Material Composition": "Only a small share of its materials are organic or recycled (about 10–12% cotton). H&M supports the Organic Cotton Accelerator and uses Better Cotton sources, but synthetic fabrics still dominate production. Transparency exists, yet sustainability performance remains moderate at best.",
+          "Other Environmental": "H&M faces multiple greenwashing accusations for exaggerating environmental claims, and many of its “sustainability” statistics lack context or independent verification. While it appears in sustainability indexes, its overall rating remains below industry average."
         }
       }
     },
 
     {
+      "id" : 3,
       "name": "Eileen Fisher",
       "slug": "eileen-fisher",
       "ratings": {
@@ -169,22 +172,23 @@
       },
       "details": {
         "Labor": {
-          "Child Labor": "Strong enforcement and transparency but lacks Patagonia-level verification…",
-          "Forced Labor": "Strict code of conduct; audits via FLA and SAI…",
-          "Working Conditions": "70% Fair Trade Certified volume; SA8000 certifications…",
-          "Fair Wages": "Commitment to living wages but not fully implemented…",
-          "Other": "100% Tier 1 & 2 traced; high B Corp score (109.4)."
+          "Child Labor": "Eileen Fisher enforces strong ethical labor standards and maintains supply chain transparency The brand signed the Turkmen Cotton Pledge, prohibiting forced labor cotton from Turkmenistan. However, while it has strong policies, it lacks the complete third-party verification system seen in top-tier brands.",
+          "Forced Labor": "The company adheres to a strict code of conduct that prohibits child and forced labor. Eileen Fisher partners with organizations such as the Fair Labor Association and Social Accountability International to audit and certify its factories. The brand demonstrates strong commitment but stops short of industry-leading verification.",
+          "Working Conditions": "As of Fall 2025, 70% of Eileen Fisher's total volume comes from Fair Trade Certified factories. For every garment produced in Fair Trade Certified factories, the company contributes a Fair Trade Premium that goes into worker-managed Community Development Funds. More than half its final production stage is certified by SA8000. ",
+          "Fair Wages": "The company has a Code of Conduct covering ILO Four Fundamentals to ensure fair and living wages throughout the supply chain. However, there's no evidence it ensures workers are paid living wages throughout its entire supply chain. The brand is working toward this goal but hasn't achieved full implementation.",
+          "Other Labor": "Eileen Fisher traces 100% of its Tier 1 and 2 manufacturers, mills, and dyehouses. The company earned a B Corp score of 109.4, well above the median score of 50.9 for ordinary businesses. Eileen Fisher has been a certified B Corporation since 2015, and became a benefit corporation in 2017."
         },
         "Environment": {
-          "Waste Management": "Renew, Waste No More, and long-running takeback programs…",
-          "Carbon Emissions": "SBTi targets but not fully on track…",
-          "Materials": "75% preferred materials; extensive certifications (GOTS, GRS, RWS…)",
-          "Other": "Strong sustainability leadership; Bluesign partner; ZDHC signatory."
+          "Waste Management": "RenThe company takes back clothes to be resold through Renew, remade into something new through Waste No More, or recycled into new fiber. Since 2009, Eileen Fisher has been collecting and recycling previously worn garments through Green Eileen. The program has been running since 2013 and demonstrates strong circular economy practices.",
+          "Carbon Emissions": "Eileen Fisher's annual emissions totaled 28,054 tCO2e in 2023, with 96% classified as Scope 3. The company has set near-term emissions reduction targets validated by the Science Based Targets Initiative to reduce Scope 1 and 2 emissions by 100% and Scope 3 by 25% by 2025 Ecolife. The company targets a 100% reduction in Scope 1 and 2 emissions and 25% reduction in Scope 3 by 2025 using 2017 as baseline. However, tracking shows the company is not fully on track to meet all targets.",
+          "Material Composition": "Eileen Fisher uses a significant share of preferred materials, with organic cotton, organic linen, and TENCEL Lyocell as its most-used fibers. The company reports that 75% of its products are made with lower emissions or certified materials. Materials are certified by GOTS, GRS, RWS, FSC, Land to Market, and ROC standards.",
+          "Other Environmental": "Eileen Fisher ranked second in Stand.earth's 2025 Fossil Free Fashion Scorecard with a B- grade, moving up from a C in 2023. The brand became a Bluesign System Partner and a Signatory Friend of ZDHC in 2024. The company demonstrates strong environmental leadership and industry collaboration."
         }
       }
     },
 
     {
+      "id" : 4,
       "name": "Shein",
       "slug": "shein",
       "ratings": {
@@ -203,17 +207,17 @@
       },
       "details": {
         "Labor": {
-          "Child Labor": "Documented cases in 2023; limited enforcement…",
-          "Forced Labor": "Widespread 75-hour weeks; unregulated subcontracting…",
-          "Working Conditions": "Workers paid pennies per item; severe violations…",
-          "Fair Wages": "Below living wage; delayed payments; extremely low compensation…",
-          "Other": "Scores 0–10% transparency; extremely low accountability ratings."
+          "Child Labor": "Shein admitted to finding two cases of child labor in its supply chain during the first nine months of 2023. The company suspended orders from manufacturers and gave them 30 days to remediate offenses. Investigations found teenagers performing tasks in workshops, though whether they were paid remained unclear. While the company has policies, enforcement appears weak.",
+          "Forced Labor": "Shein's suppliers often subcontract work to smaller, unregulated factories where labor laws are frequently ignored. Investigations revealed workers stating they work from 8 in the morning to 10:30 at night, taking only one day off per month. Workers face 75-hour work weeks in contravention of Chinese labor laws. The company has policies but limited verification and persistent violations.",
+          "Working Conditions": "The BBC found workers sitting behind sewing machines for around 75 hours a week. A 2022 Channel 4 documentary revealed workers were paid just £0.03 per item and worked 16+ hours daily with one or no days off per month. Internal audits showed 71% of over 3,000 suppliers received a score of C or lower on the company's grade scale.",
+          "Fair Wages": "The basic wage without overtime was 2,400 yuan (£265; $327), below the 6,512 yuan the Asia Floor Wage Alliance says is needed for a living wage. Company audits found 0.5% of suppliers weren't paying workers the local minimum wage or were delaying wage payments. Workers consistently report earning below living wages.",
+          "Other Labor": "Shein received a score of 0-10% in the 2022 Fashion Transparency Index. Remake scored Shein 5 points out of 150 in their 2021 Accountability Report. An updated evaluation in 2022 yielded only 4 points out of 100. The company provides minimal transparency and lacks credible third-party verification."
         },
         "Environment": {
-          "Waste Management": "6,000 styles daily; poor quality leads to massive waste…",
-          "Carbon Emissions": "16.7 million mtCO2e; highest emissions in the fashion industry…",
-          "Materials": "76% polyester; only 6% recycled polyester…",
-          "Other": "F grades across indexes; multiple greenwashing accusations."
+          "Waste Management": "Shein drops 6,000 new styles every day. The company offers a recycling program at college pop-up events, but it's unclear how much collected material is actually recycled. Due to poor quality, clothes often fall apart after one or two wears, likely resulting in millions of pounds of unwanted clothing ending up in developing countries. Limited waste reduction efforts relative to production scale.",
+          "Carbon Emissions": "According to the company's sustainability report, Shein emitted 16.7 million total metric tons of carbon dioxide in 2023, more than what four coal power plants emit annually. Supply chain emissions rose to 11,201,419 mtCO2e in 2024, a 9.7% jump from 2023. Analysis found emissions rose at almost double the rate of revenue, making Shein the highest-emitting company in the fashion industry.",
+          "Material Composition": "Polyester makes up 76% of total fabrics, and only 6% of that polyester is recycled. The company uses few lower-impact materials. The brand relies heavily on virgin synthetic materials with minimal sustainable alternatives.",
+          "Other Environmental": "Shein received an F grade in Stand.earth's 2025 Fossil Free Fashion Scorecard. Good On You rates Shein's overall score as 'We Avoid,' the lowest possible rating. The company faces multiple greenwashing accusations, and Fashion Revolution rated it 0/20 on the Fashion Transparency Index. The brand demonstrates minimal credible environmental action."
         }
       }
     }

@@ -1,18 +1,22 @@
-export default function HomePage() {
-  return (
-    <div>
-      <h1>Welcome to GoBrand!</h1>
-      <p>Please search for your brand below to view its details. </p>
+import brandData from "@/app/data/brandresearch.json";
+import Search from "@/components/Search";
 
-      <form action="/search">
-        <input
-          type="text"
-          name="q"
-          placeholder="Search brands..."
-          style={{ padding: 8, width: '70%' }}
-        />
-        <button type="submit">Search</button>
-      </form>
+export default function HomePage() {
+  const brands = brandData.brands;
+  return (
+    <div style={{ padding: 20 }}>
+      <Search/>
+      <h4>All Brands:</h4>
+      <ul>
+        {brands.map(b => (
+          <li 
+            key={b.id}
+            className="p-2 rounded-md hover:bg-green-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+          >
+            <a href={`/brand/${b.id}`}>{b.name}</a>
+          </li>
+        ))}
+      </ul>
 
     </div>
   );
