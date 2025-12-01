@@ -19,8 +19,9 @@ h1 {
 h2 {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.50rem;
   font-weight: 600;
+  color: #166534; /* Tailwind green-800 hex value */
 }
 
 h4 {

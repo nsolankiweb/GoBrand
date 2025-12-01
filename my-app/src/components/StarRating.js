@@ -1,6 +1,6 @@
 "use client";
 
-export default function StarRating({ score, color }) {
+export default function StarRating({ score, color, size }) {
     const fullStars = Math.floor(score);
   const halfStar = score % 1 >= 0.5 ? 1 : 0;
   const emptyStars = 5 - fullStars - halfStar;
@@ -24,7 +24,7 @@ export default function StarRating({ score, color }) {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            className="size-6"
+            className={`w-[${size}px] h-[${size}px]`}
           >
             <path
               fillRule="evenodd"
@@ -40,7 +40,7 @@ export default function StarRating({ score, color }) {
           key="half"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
-          className="size-6"
+          className={`w-[${size}px] h-[${size}px]`}
         >
           <defs>
             <linearGradient id="half-grad">
@@ -69,7 +69,7 @@ export default function StarRating({ score, color }) {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke={color || "#f5a623"}
-            className="size-6"
+            className={`w-[${size}px] h-[${size}px]`}
           >
             <path
               strokeLinecap="round"
@@ -81,4 +81,3 @@ export default function StarRating({ score, color }) {
     </div>
   );
 }
-// stroke="#f5a623"

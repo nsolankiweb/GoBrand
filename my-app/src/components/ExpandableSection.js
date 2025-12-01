@@ -4,7 +4,6 @@ import { useState } from 'react';
 import StarRating from "./StarRating";
 
 export default function ExpandableSection({ 
-  title, 
   score, 
   ratings,
   details,
@@ -14,12 +13,11 @@ export default function ExpandableSection({
 
 
   return (
-    <div style={{ marginBottom: 20, borderBottom: "1px solid #ccc", paddingBottom: 10 }}>
+    <div style={{ marginBottom: 20, paddingBottom: 10 }}>
       <button
         onClick={() => setOpen(!open)}
         style={{
           width: "100%",
-          textAlign: "left",
           background: "none",
           border: "none",
           padding: "10px 0",
@@ -30,17 +28,17 @@ export default function ExpandableSection({
           alignItems: "center"
         }}
       >
-        <span>
-          {title} — <strong>{score}</strong>
-        </span>
-        <span style={{ fontSize: "1.2rem" }}>
+        <span style={{ flexGrow: 1 }} />
+
+        <span style={{ fontSize: "1.4rem" }}>
           {open ? "▲" : "▼"}
         </span>
       </button>
 
       <StarRating 
-        score={score} 
-        // color="#333" // parent stars use default (yellow)
+        score={score}
+        color="#f5a623"
+        size={24}
       />
 
       {open && (
@@ -67,6 +65,7 @@ export default function ExpandableSection({
                 <StarRating 
                   score={value}
                   color="#666"
+                  size={24}
                 />
 
                 {details?.[category] && (

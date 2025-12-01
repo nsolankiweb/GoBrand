@@ -71,32 +71,44 @@ export default async function BrandPage({ params }) {
         {/* Overall Scores */}
         <div className="mt-4 mb-10 grid md:grid-cols-2 gap-4">
           <div className="bg-stone-50 border border-green-100 p-4 rounded-xl shadow-sm">
-            <p className="text-stone-600 text-sm">Labor Score</p>
+            <p className="text-stone-600 text-medium">Labor Score</p>
             <p className="text-3xl font-bold text-green-700">{brand.ratings["Labor Score"]}</p>
+            <ExpandableSection
+                score={brand.ratings["Labor Score"]}
+                ratings={laborRatings}
+                details={brand.details.Labor}
+                rubric={brandData.scoring_rubric}
+            />
           </div>
 
           <div className="bg-stone-50 border border-green-100 p-4 rounded-xl shadow-sm">
-            <p className="text-stone-600 text-sm">Environmental Score</p>
+            <p className="text-stone-600 text-medium">Environmental Score</p>
             <p className="text-3xl font-bold text-green-700">{brand.ratings["Environmental Score"]}</p>
+            <ExpandableSection
+                score={brand.ratings["Environmental Score"]}
+                ratings={environmentalRatings}
+                details={brand.details.Environment}
+                rubric={brandData.scoring_rubric}
+            />
           </div>
         </div>
 
-        {/* Expandable Sections */}
-        <ExpandableSection
-          title="Labor Practices"
-          score={brand.ratings["Labor Score"]}
-          ratings={laborRatings}
-          details={brand.details.Labor}
-          rubric={brandData.scoring_rubric}
-        />
 
-        <ExpandableSection
-          title="Environmental Practices"
-          score={brand.ratings["Environmental Score"]}
-          ratings={environmentalRatings}
-          details={brand.details.Environment}
-          rubric={brandData.scoring_rubric}
-        />
+        <h2>Sources</h2>
+        <ul className="mt-2 text-green-600 space-y-1">
+        {Object.entries(brand.sources).map(([title, url], index) => (
+            <li key={index} className="list-none">
+            <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-green-700"
+            >
+                {title}
+            </a>
+            </li>
+        ))}
+        </ul>
 
       </div>
     </div>
